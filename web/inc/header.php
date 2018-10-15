@@ -30,5 +30,10 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script type="text/javascript" src="/web/js/jquery.min.js"></script>
+
+    <script type="text/javascript" src="/shared/modules/ajaxCall/ajaxClass.js"></script>
+    <script type="text/javascript" src="/shared/modules/sehoMap/sehoMap.js"></script>
+    <script type="text/javascript" src="/shared/modules/utils/PValidation.js"></script>
+    <script type="text/javascript" src="/shared/modules/valueSetter/sayhoValueSetter.js"></script>
 </head>
 
