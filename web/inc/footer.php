@@ -11,7 +11,7 @@
 
                 <!-- footer logo -->
                 <div class="footer-logo">
-                    <a href="index_backup.html"><img src="img/logo-alt.png" alt="logo"></a>
+                    <a href="index_backup.html"><img src="/web/img/logo-alt.png" alt="logo"></a>
                 </div>
                 <!-- /footer logo -->
 
@@ -58,10 +58,10 @@
 </div>
 <!-- /Preloader -->
 <!-- jQuery Plugins -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="/web/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/web/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/web/js/jquery.magnific-popup.js"></script>
+<script type="text/javascript" src="/web/js/main.js"></script>
 
 </body>
 
