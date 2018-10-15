@@ -7,26 +7,15 @@
 </script>
 
 <body>
-	<!-- Header -->
 	<header id="home">
-		<!-- Background Image -->
 		<div class="bg-img" style="background-image: url('./img/background1.jpg');">
 			<div class="overlay"></div>
 		</div>
-		<!-- /Background Image -->
+        <? include_once "./inc/navigator.php"; ?>
 
-		<!-- Nav -->
-		<nav id="nav" class="navbar nav-transparent">
-			<div class="container">
-
-<? include_once "./inc/navigator.php"; ?>
-
-		<!-- home wrapper -->
 		<div class="home-wrapper">
 			<div class="container">
 				<div class="row">
-
-					<!-- home content -->
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content">
 							<h1 class="white-text"><?=$CONST_PROJECT_NAME?></h1>
@@ -38,15 +27,11 @@
 							<button class="main-btn">그룹관리</button>
 						</div>
 					</div>
-					<!-- /home content -->
-
 				</div>
 			</div>
 		</div>
-		<!-- /home wrapper -->
-
 	</header>
-	<!-- /Header -->
+
 
 	<!-- About -->
 	<div id="about" class="section md-padding">

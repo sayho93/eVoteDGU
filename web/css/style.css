@@ -600,6 +600,13 @@ header {
   margin-top: 20px;
 }
 
+.content-wrapper{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 15%;
+}
+
 .header-wrapper h2 {
     display: inline-block;
     margin-bottom: 0px;
