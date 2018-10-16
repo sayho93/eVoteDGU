@@ -37,9 +37,17 @@ class UserSVC extends Routable{
         return $this->response(1, "");
     }
 
+    function checkEmail(){
+        $sql = "
+            SELECT COUNT(*) cnt FROM tblUser WHERE email = '{$_REQUEST["email"]}' AND status = 1 LIMIT 1
+        ";
+        $cnt = $this->getValue($sql, "cnt");
+        if($cnt < 1) return $this->response(1, "available");
+        else return $this->response(-1, "failed");
+    }
+
     function test(){
         $str = "test111";
-
         $encrypted = $this->encryptAES($str);
         echo "encrypted : " . $encrypted . "\n";
 

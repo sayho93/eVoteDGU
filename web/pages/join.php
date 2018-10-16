@@ -11,6 +11,15 @@
 
 <script>
     $(document).ready(function(){
+        $(".jCheckEmail").click(function(){
+            var email = $("[name=email]").val();
+            var ajax = new AjaxSender("/shared/public/route.php?F=UserSVC.checkEmail", true, "json", new sehoMap().put("email", email));
+            ajax.send(function(data){
+                if(data.code === 1)alert("사용 가능한 이메일입니다.");
+                else alert("이미 사용중인 이메일입니다.");
+            })
+        });
+
         $(".jSubmit").click(function(){
             var id = $(this).attr("id");
             var next = $(this).attr("next");
@@ -48,31 +57,31 @@
 
                 <div class="input-group input-group-lg">
                     <span class="input-group-addon" id="sizing-addon1">이메일</span>
-                    <input type="text" class="form-control" name="email">
+                    <input type="text" class="form-control" name="email"/>
+                    <span class="input-group-addon jCheckEmail" style="cusor: pointer;">이메일 중복체크</span>
                 </div>
 
                 <div class="input-group input-group-lg" style="margin-top: 10px">
                     <span class="input-group-addon" id="sizing-addon1">비밀번호</span>
-                    <input type="text" class="form-control" name="password">
+                    <input type="text" class="form-control" name="password"/>
                 </div>
 
                 <div class="input-group input-group-lg" style="margin-top: 10px">
                     <span class="input-group-addon" id="sizing-addon1">이름</span>
-                    <input type="text" class="form-control" name="name">
+                    <input type="text" class="form-control" name="name"/>
                 </div>
 
                 <div class="input-group input-group-lg" style="margin-top: 10px">
                     <span class="input-group-addon" id="sizing-addon1">휴대전화번호</span>
-                    <input type="text" class="form-control" name="phone">
+                    <input type="text" class="form-control" name="phone"/>
                 </div>
 
                 <div class="input-group input-group-lg" style="margin-top: 10px">
                     <span class="input-group-addon" id="sizing-addon1">닉네임</span>
-                    <input type="text" class="form-control" name="nick">
+                    <input type="text" class="form-control" name="nick"/>
                 </div>
 
                 <button class="btn btn-primary btn-lg pull-right jSubmit" style="margin-top: 10px;">회원가입</button>
-
             </div>
         </div>
     </form>
