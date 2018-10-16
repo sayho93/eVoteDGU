@@ -11,27 +11,35 @@
 
 <script>
     $(document).ready(function(){
+        var check = -1;
+
         $(".jCheckEmail").click(function(){
             var email = $("[name=email]").val();
+            if(email === '' || email == null){
+                alert("이메일 입력 후 시도해 주시기 바랍니다.");
+                return;
+            }
             var ajax = new AjaxSender("/shared/public/route.php?F=UserSVC.checkEmail", true, "json", new sehoMap().put("email", email));
             ajax.send(function(data){
-                if(data.code === 1)alert("사용 가능한 이메일입니다.");
-                else alert("이미 사용중인 이메일입니다.");
+                if(data.code === 1) check = 1;
+                alert(data.message);
             })
         });
 
         $(".jSubmit").click(function(){
-            var id = $(this).attr("id");
-            var next = $(this).attr("next");
-            if(confirm("상태를 변경하시겠습니까?")){
-                var ajax = new AjaxSender("/route.php?cmd=Management.changeFpubStatus", true, "json", new sehoMap().put("id", id).put("next", next));
-                ajax.send(function(data){
-                    if(data.returnCode === 1){
-                        alert("변경되었습니다");
-                        location.reload();
-                    }
-                })
+            if(check !== 1){
+                alert("이메일 중복 확인 후 시도해주시기 바랍니다.");
+                return;
             }
+            var ajax = new AjaxSubmit("/shared/public/route.php?F=UserSVC.userJoin", "post", true, "json", "#form");
+            ajax.send(function(data){
+                if(data.code === 1){
+                    alert(data.message);
+                    location.href = "/web";
+                }else{
+                    alert("error");
+                }
+            });
         });
     });
 </script>
@@ -39,7 +47,7 @@
 <body>
 
 <header id="home">
-    <div class="bg-img" style="background-image: url('/web/img/background1.jpg');">
+    <div class="bg-img" style="background-image: url('/root/web/img/background1.jpg');">
         <div class="overlay"></div>
     </div>
     <? include_once "../inc/navigator.php"; ?>
@@ -56,14 +64,17 @@
                 </div>
 
                 <div class="input-group input-group-lg">
+
                     <span class="input-group-addon" id="sizing-addon1">이메일</span>
                     <input type="text" class="form-control" name="email"/>
-                    <span class="input-group-addon jCheckEmail" style="cusor: pointer;">이메일 중복체크</span>
+                    <span class="input-group-btn">
+                        <button class="btn btn-danger jCheckEmail" type="button">이메일 중복체크</button>
+                    </span>
                 </div>
 
                 <div class="input-group input-group-lg" style="margin-top: 10px">
                     <span class="input-group-addon" id="sizing-addon1">비밀번호</span>
-                    <input type="text" class="form-control" name="password"/>
+                    <input type="password" class="form-control" name="password"/>
                 </div>
 
                 <div class="input-group input-group-lg" style="margin-top: 10px">
@@ -81,7 +92,7 @@
                     <input type="text" class="form-control" name="nick"/>
                 </div>
 
-                <button class="btn btn-primary btn-lg pull-right jSubmit" style="margin-top: 10px;">회원가입</button>
+                <input type="button" class="btn btn-primary btn-lg pull-right jSubmit" style="margin-top: 10px;" value="회원가입" />
             </div>
         </div>
     </form>

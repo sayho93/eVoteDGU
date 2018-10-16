@@ -9,22 +9,13 @@
 class UserSVC extends Routable{
 
     function userJoin(){
-        $sql = "
-            SELECT * FROM tblUser WHERE email = '{$_REQUEST["email"]}' LIMIT 1
-        ";
-
-        $user = $this->getRow($sql);
-
-        if($user != "")
-            return $this->response(-1, "해당 정보는 이미 사용중입니다.");
-
+        $password = $this->encryptAES($_REQUEST["password"]);
         $sql = "
             INSERT INTO tblUser(email, password, accessToken, name, nick, phone, accessDate, uptDate, regDate)
             VALUES(
               '{$_REQUEST["email"]}',
-              '{$_REQUEST["password"]}',
+              '{$password}',
               '{$_REQUEST["accessToken"]}',
-              '{$_REQUEST["name"]}',
               '{$_REQUEST["name"]}',
               '{$_REQUEST["nick"]}',
               '{$_REQUEST["phone"]}',
@@ -34,7 +25,7 @@ class UserSVC extends Routable{
             )
         ";
         $this->update($sql);
-        return $this->response(1, "");
+        return $this->response(1, "가입되었습니다.");
     }
 
     function checkEmail(){
@@ -42,8 +33,8 @@ class UserSVC extends Routable{
             SELECT COUNT(*) cnt FROM tblUser WHERE email = '{$_REQUEST["email"]}' AND status = 1 LIMIT 1
         ";
         $cnt = $this->getValue($sql, "cnt");
-        if($cnt < 1) return $this->response(1, "available");
-        else return $this->response(-1, "failed");
+        if($cnt < 1) return $this->response(1, "사용 가능한 이메일입니다.");
+        else return $this->response(-1, "이미 사용중인 이메일입니다.");
     }
 
     function test(){
