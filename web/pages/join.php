@@ -12,7 +12,17 @@
 <script>
     $(document).ready(function(){
         $(".jSubmit").click(function(){
-
+            var id = $(this).attr("id");
+            var next = $(this).attr("next");
+            if(confirm("상태를 변경하시겠습니까?")){
+                var ajax = new AjaxSender("/route.php?cmd=Management.changeFpubStatus", true, "json", new sehoMap().put("id", id).put("next", next));
+                ajax.send(function(data){
+                    if(data.returnCode === 1){
+                        alert("변경되었습니다");
+                        location.reload();
+                    }
+                })
+            }
         });
     });
 </script>
