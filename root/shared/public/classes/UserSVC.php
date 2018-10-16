@@ -11,7 +11,7 @@ class UserSVC extends Routable{
     function userJoin(){
         $password = $this->encryptAES($_REQUEST["password"]);
         $sql = "
-            INSERT INTO tblUser(email, password, accessToken, name, nick, phone, accessDate, uptDate, regDate)
+            INSERT INTO tblUser(email, password, accessToken, name, nick, phone, status, accessDate, uptDate, regDate)
             VALUES(
               '{$_REQUEST["email"]}',
               '{$password}',
@@ -19,6 +19,7 @@ class UserSVC extends Routable{
               '{$_REQUEST["name"]}',
               '{$_REQUEST["nick"]}',
               '{$_REQUEST["phone"]}',
+              '2',
               NOW(),
               NOW(),
               NOW()

@@ -19,7 +19,7 @@
                 alert("이메일 입력 후 시도해 주시기 바랍니다.");
                 return;
             }
-            var ajax = new AjaxSender("/shared/public/route.php?F=UserSVC.checkEmail", true, "json", new sehoMap().put("email", email));
+            var ajax = new AjaxSender("/root/shared/public/route.php?F=UserSVC.checkEmail", true, "json", new sehoMap().put("email", email));
             ajax.send(function(data){
                 if(data.code === 1) check = 1;
                 alert(data.message);
@@ -31,7 +31,7 @@
                 alert("이메일 중복 확인 후 시도해주시기 바랍니다.");
                 return;
             }
-            var ajax = new AjaxSubmit("/shared/public/route.php?F=UserSVC.userJoin", "post", true, "json", "#form");
+            var ajax = new AjaxSubmit("/root/shared/public/route.php?F=UserSVC.userJoin", "post", true, "json", "#form");
             ajax.send(function(data){
                 if(data.code === 1){
                     alert(data.message);
