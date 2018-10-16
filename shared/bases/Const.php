@@ -34,10 +34,14 @@ define("DATABASE_USER", "DATABASE_USER");
 define("DATABASE_PASSWORD", "DATABASE_PASSWORD");
 define("DATABASE_CHARSET", "DATABASE_CHARSET");
 
+//web image path
+define("URL_PATH_WEB", "/web");
+define("URL_PATH_SHARED", "");
+
 // PREFIXES
 define("ERROR", "PF_ERROR : ");
 
-// Contant Messages
+// Constant Messages
 define("MSG_INVALID_COMMAND", ERROR."Invalid Route Parameter. [F]");
 define("MSG_CLASS_NOT_EXISTS", ERROR."Invalid Route Parameter. [C]");
 define("MSG_METHOD_NOT_EXISTS", ERROR."Invalid Route Parameter. [M]");

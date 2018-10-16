@@ -3,6 +3,8 @@
 <script>
     $(document).ready(function(){
         alert("서비스 개발중입니다.");
+
+        $(".jJoin").click(function(){location.href = "<?=URL_PATH_WEB?>/pages/join.php"});
     });
 </script>
 
@@ -23,7 +25,7 @@
                                 아직도 불편한 설문조사 서비스를 이용하고 계신가요? 보기 힘든 결과 자료를 검토하고 계신가요?
                                 <br/>깨끗하고 빠른 <?=$CONST_PROJECT_NAME?>과 함께 의견을 모아보세요!
 							</p>
-							<button class="white-btn">회원가입</button>
+							<button class="white-btn jJoin">회원가입</button>
 							<button class="main-btn">그룹관리</button>
 						</div>
 					</div>

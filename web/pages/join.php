@@ -47,7 +47,7 @@
 <body>
 
 <header id="home">
-    <div class="bg-img" style="background-image: url('/root/web/img/background1.jpg');">
+    <div class="bg-img" style="background-image: url('<?=URL_PATH_WEB?>/img/background1.jpg');">
         <div class="overlay"></div>
     </div>
     <? include_once "../inc/navigator.php"; ?>
