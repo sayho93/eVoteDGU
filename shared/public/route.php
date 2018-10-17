@@ -16,6 +16,7 @@ $ROUTABLE_MTD = $requested[1];
 
 if(class_exists($ROUTABLE_CLS)){
     $tempObject = new $ROUTABLE_CLS();
+    $tempObject->lastCall = $ROUTABLE_CLS . "." . $ROUTABLE_MTD;
 }else{
     echo MSG_CLASS_NOT_EXISTS;
     exit;

@@ -41,7 +41,8 @@
 		<!-- Container -->
 		<div class="container">
 
-			<!-- Row -->
+			<!-- Row
+			-->
 			<div class="row">
 
 				<!-- Section header -->

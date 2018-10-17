@@ -3,13 +3,12 @@ include_once "../bases/Databases.php";
 
 class Routable extends Databases {
 
-    function test(){
-        return $this->getRow("SELECT * FROM tblUser LIMIT 1");
-    }
+    var $lastCall;
 
     function response($returnCode, $returnMessage, $data = "", $extra = ""){
         $resultJson = Array(
             "api" => $this->lastCall,
+
             "code" => $returnCode,
             "message" => $returnMessage,
             "data" => $data,
