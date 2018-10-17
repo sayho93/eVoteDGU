@@ -19,7 +19,7 @@
                 alert("이메일 입력 후 시도해 주시기 바랍니다.");
                 return;
             }
-            var ajax = new AjaxSender("/root/shared/public/route.php?F=UserSVC.checkEmail", true, "json", new sehoMap().put("email", email));
+            var ajax = new AjaxSender("<?=URL_PATH_SHARED?>/shared/public/route.php?F=UserSVC.checkEmail", true, "json", new sehoMap().put("email", email));
             ajax.send(function(data){
                 if(data.code === 1) check = 1;
                 alert(data.message);
@@ -31,7 +31,7 @@
                 alert("이메일 중복 확인 후 시도해주시기 바랍니다.");
                 return;
             }
-            var ajax = new AjaxSubmit("/root/shared/public/route.php?F=UserSVC.userJoin", "post", true, "json", "#form");
+            var ajax = new AjaxSubmit("<?=URL_PATH_SHARED?>/shared/public/route.php?F=UserSVC.userJoin", "post", true, "json", "#form");
             ajax.send(function(data){
                 if(data.code === 1){
                     alert(data.message);
@@ -68,7 +68,7 @@
                     <span class="input-group-addon" id="sizing-addon1">이메일</span>
                     <input type="text" class="form-control" name="email"/>
                     <span class="input-group-btn">
-                        <button class="btn btn-danger jCheckEmail" type="button">이메일 중복체크</button>
+                        <button class="btn btn-danger jCheckEmail" type="button">중복확인</button>
                     </span>
                 </div>
 
