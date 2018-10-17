@@ -31,9 +31,10 @@ class UserSVC extends Routable{
 
     function checkEmail(){
         $sql = "
-            SELECT COUNT(*) cnt FROM tblUser WHERE email = '{$_REQUEST["email"]}' AND status = 1 LIMIT 1
+            SELECT COUNT(*) cnt FROM tblUser WHERE email = '{$_REQUEST["email"]}' AND status != 0 LIMIT 1
         ";
         $cnt = $this->getValue($sql, "cnt");
+        
         if($cnt < 1) return $this->response(1, "사용 가능한 이메일입니다.");
         else return $this->response(-1, "이미 사용중인 이메일입니다.");
     }

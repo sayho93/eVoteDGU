@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a1d25b-4d7c-46be-91ce-59dc5a1ace2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/shared/public/classes/Routable.php" beforeDir="false" afterPath="$PROJECT_DIR$/shared/public/classes/Routable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/public/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/shared/public/route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpinfo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/public/classes/UserSVC.php" beforeDir="false" afterPath="$PROJECT_DIR$/shared/public/classes/UserSVC.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +53,11 @@
     <session id="-213636519">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -62,7 +65,7 @@
           <entry key="css" value="2" />
           <entry key="html" value="1" />
           <entry key="js" value="1" />
-          <entry key="php" value="15" />
+          <entry key="php" value="17" />
           <entry key="rnc" value="2" />
           <entry key="sql" value="1" />
         </counts>
@@ -72,7 +75,7 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="1" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="15" />
+          <entry key="PHP" value="17" />
           <entry key="RNG Compact" value="2" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -80,14 +83,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="55" />
-          <entry key="php" value="1418" />
+          <entry key="php" value="1479" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="55" />
-          <entry key="PHP" value="1417" />
+          <entry key="PHP" value="1478" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="SQL" value="1" />
         </counts>
@@ -153,8 +156,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/inc/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            <state relative-caret-position="75">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -162,8 +165,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="60">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -171,16 +174,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shared/public/classes/Routable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="135">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpinfo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shared/public/classes/UserSVC.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shared/public/route.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="270">
               <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
             </state>
           </provider>
@@ -189,7 +210,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shared/bases/Databases.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="60">
               <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
@@ -198,8 +219,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shared/bases/Configs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="15">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -207,8 +228,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shared/bases/Const.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="495">
+              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -232,7 +253,6 @@
         <option value="$PROJECT_DIR$/../PickleBeaconSvc/shared/public/classes/UserSVC.php" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/web/js/jquery.min.js" />
-        <option value="$PROJECT_DIR$/shared/public/classes/UserSVC.php" />
         <option value="$PROJECT_DIR$/root/web/inc/navigator.php" />
         <option value="$PROJECT_DIR$/root/web/inc/footer.php" />
         <option value="$PROJECT_DIR$/root/web/pages/join.php" />
@@ -248,8 +268,10 @@
         <option value="$USER_HOME$/AppData/Local/Temp/scp32619/var/www/html/eVote/shared/bases/Const.php" />
         <option value="$PROJECT_DIR$/web/pages/join.php" />
         <option value="$PROJECT_DIR$/web/index.php" />
-        <option value="$PROJECT_DIR$/shared/public/classes/Routable.php" />
         <option value="$PROJECT_DIR$/shared/public/route.php" />
+        <option value="$PROJECT_DIR$/shared/public/classes/Routable.php" />
+        <option value="$PROJECT_DIR$/phpinfo.php" />
+        <option value="$PROJECT_DIR$/shared/public/classes/UserSVC.php" />
       </list>
     </option>
   </component>
@@ -268,16 +290,16 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,52 +307,16 @@
               <item name="eVote" type="b2602c69:ProjectViewProjectNode" />
               <item name="eVote" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="eVote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eVote" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eVote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eVote" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="bases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eVote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eVote" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eVote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eVote" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eVote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eVote" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="setter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eVote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eVote" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="route&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/route.php&#10;Ro&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/classes/Routable.php&#10;index&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/web/index.php&#10;join&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/web/pages/join.php&#10;head&#9;FILE&#9;file://C:/Users/Administrator/AppData/Local/Temp/scp26252/var/www/html/eVote/web/inc/header.php&#10;header&#9;null&#9;null&#10;footer&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/web/inc/footer.php&#10;userS&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/classes/UserSVC.php&#10;const&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/bases/Const.php&#10;UserS&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/classes/UserSVC.php&#10;conta&#9;FILE&#9;file:///usr/local/var/eVote/web/contact.html" />
+    <property name="SearchEverywhereHistoryKey" value="User&#9;FILE&#9;file:///usr/local/var/eVote/shared/public/classes/UserSVC.php&#10;route&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/route.php&#10;Ro&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/classes/Routable.php&#10;index&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/web/index.php&#10;join&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/web/pages/join.php&#10;head&#9;FILE&#9;file://C:/Users/Administrator/AppData/Local/Temp/scp26252/var/www/html/eVote/web/inc/header.php&#10;header&#9;null&#9;null&#10;footer&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/web/inc/footer.php&#10;userS&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/classes/UserSVC.php&#10;const&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/bases/Const.php&#10;UserS&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/classes/UserSVC.php&#10;conta&#9;FILE&#9;file:///usr/local/var/eVote/web/contact.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -372,17 +358,19 @@
       <workItem from="1539698548055" duration="1909000" />
       <workItem from="1539700472999" duration="45000" />
       <workItem from="1539758298969" duration="3761000" />
+      <workItem from="1539779234038" duration="97000" />
+      <workItem from="1539779378231" duration="974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18862000" />
+    <option name="totallyTimeSpent" value="19933000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1057" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25887266" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25833333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -452,13 +440,6 @@
     <entry file="file://$PROJECT_DIR$/root/shared/bases/Databases.php" />
     <entry file="file://$PROJECT_DIR$/root/web/inc/header.php" />
     <entry file="file://$PROJECT_DIR$/root/shared/public/classes/Routable.php" />
-    <entry file="file://$PROJECT_DIR$/shared/public/classes/UserSVC.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -482,20 +463,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp32619/var/www/html/eVote/shared/bases/Const.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp26252/var/www/html/eVote/web/inc/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="76" selection-start-column="76" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp32619/var/www/html/eVote/shared/bases/Const.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp26252/var/www/html/eVote/web/inc/header.php" />
     <entry file="file://$PROJECT_DIR$/web/pages/join.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -505,50 +474,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/inc/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="75">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/public/route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shared/bases/Databases.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="60">
           <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shared/bases/Configs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shared/bases/Const.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        <state relative-caret-position="495">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shared/public/classes/Routable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="135">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shared/public/route.php">
+    <entry file="file://$PROJECT_DIR$/phpinfo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        <state relative-caret-position="105">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/public/classes/UserSVC.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
         </state>
       </provider>
     </entry>
