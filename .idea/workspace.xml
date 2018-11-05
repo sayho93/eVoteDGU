@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a1d25b-4d7c-46be-91ce-59dc5a1ace2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/phpinfo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/public/classes/UserSVC.php" beforeDir="false" afterPath="$PROJECT_DIR$/shared/public/classes/UserSVC.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,19 +51,20 @@
     <session id="-213636519">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
           <entry key="html" value="1" />
-          <entry key="js" value="1" />
-          <entry key="php" value="17" />
+          <entry key="js" value="2" />
+          <entry key="php" value="19" />
           <entry key="rnc" value="2" />
           <entry key="sql" value="1" />
         </counts>
@@ -74,8 +73,8 @@
         <counts>
           <entry key="CSS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="17" />
+          <entry key="JavaScript" value="2" />
+          <entry key="PHP" value="19" />
           <entry key="RNG Compact" value="2" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -152,12 +151,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/inc/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            <state relative-caret-position="600">
+              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -165,71 +164,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shared/public/classes/Routable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phpinfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shared/public/classes/UserSVC.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shared/public/route.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shared/bases/Databases.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shared/bases/Configs.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shared/bases/Const.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="45">
+              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -291,15 +227,15 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,12 +247,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="User&#9;FILE&#9;file:///usr/local/var/eVote/shared/public/classes/UserSVC.php&#10;route&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/route.php&#10;Ro&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/classes/Routable.php&#10;index&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/web/index.php&#10;join&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/web/pages/join.php&#10;head&#9;FILE&#9;file://C:/Users/Administrator/AppData/Local/Temp/scp26252/var/www/html/eVote/web/inc/header.php&#10;header&#9;null&#9;null&#10;footer&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/web/inc/footer.php&#10;userS&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/classes/UserSVC.php&#10;const&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/bases/Const.php&#10;UserS&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/classes/UserSVC.php&#10;conta&#9;FILE&#9;file:///usr/local/var/eVote/web/contact.html" />
+    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file:///usr/local/var/eVote/web/index.php&#10;header&#9;FILE&#9;file:///usr/local/var/eVote/web/inc/header.php&#10;User&#9;FILE&#9;file:///usr/local/var/eVote/shared/public/classes/UserSVC.php&#10;route&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/route.php&#10;Ro&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/classes/Routable.php&#10;join&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/web/pages/join.php&#10;head&#9;FILE&#9;file://C:/Users/Administrator/AppData/Local/Temp/scp26252/var/www/html/eVote/web/inc/header.php&#10;footer&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/web/inc/footer.php&#10;userS&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/classes/UserSVC.php&#10;const&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/bases/Const.php&#10;UserS&#9;FILE&#9;file://D:/workspace_integrated/WebstormProjects/eVote/shared/public/classes/UserSVC.php&#10;conta&#9;FILE&#9;file:///usr/local/var/eVote/web/contact.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -360,14 +297,16 @@
       <workItem from="1539758298969" duration="3761000" />
       <workItem from="1539779234038" duration="97000" />
       <workItem from="1539779378231" duration="974000" />
+      <workItem from="1540354756839" duration="64000" />
+      <workItem from="1541054031341" duration="115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19933000" />
+    <option name="totallyTimeSpent" value="20112000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25833333" />
@@ -417,7 +356,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/web/js/jquery.js" />
     <entry file="file://$PROJECT_DIR$/web/js/jquery.min.js" />
     <entry file="file://$PROJECT_DIR$/shared/modules/ajaxCall/ajaxClass.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/http/http3.php">
@@ -472,20 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/inc/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shared/public/route.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -514,6 +438,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shared/public/classes/UserSVC.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shared/public/classes/Routable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -521,17 +459,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpinfo.php">
+    <entry file="file://$PROJECT_DIR$/web/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="360">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shared/public/classes/UserSVC.php">
+    <entry file="file://$PROJECT_DIR$/web/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/inc/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
         </state>
       </provider>
     </entry>
